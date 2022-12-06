@@ -1,7 +1,7 @@
 const express=require('express');
 
 const bodyParser=require('body-parser');
-const { text } = require('body-parser');
+
 
 const app=express();
 
@@ -18,4 +18,5 @@ app.use('/product', (req,res,next)=>{ //this fucntion will also listen to the ge
 app.use('/',(req,res,next)=>{
     res.send("Form submitted Successfully!");
 });
-app.listen(3000);
+app.listen(3000); 
+//This is the use for BodyParser.

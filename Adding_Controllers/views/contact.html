@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="/css/contactus.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list">
+                
+                <li class="main-header__item"><a class="active" href="/contact/contactus">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <form  action="/contact/contactus" method="POST">
+        <h2 style="color:orange"> Book a call</h>
+        <p><small> Book a call and our representative will call you with in 1 hour of selected time.</small></p>
+        <hr>
+        <label>Name:</label>
+        <br>
+        <input type="text" name="username" required style="width:500px"><br>
+        <label>Email:</label>
+        <br>
+        <input type="Email" name="Email" required style="width:500px"><br>
+        <lable>Time for call:</lable><br>
+        <input type="Date" name="Date" required style="width:247px">
+        <lable></lable>
+        <input type="Time" name="Time" required style="width:247px"><br><br>
+        <button style="width:510px; background:orange;">Get a Call </button>
+    </form>
+</main>
+</body>
+</html>
